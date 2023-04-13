@@ -14,7 +14,7 @@
 # Recurrences
 #### Definition
 It's a equation or inequality that describes a function in terms of its value on smaller inputs.
-#### Example:Merge sort $\Omicron({n^2})$
+#### Example:Merge sort 
 
 $$
 T(n)=\begin{cases}\Theta(1)&n = 1\\
@@ -38,7 +38,7 @@ When we state and solve recurrences,we often **omit floors,ceiling,and boundary 
 ## [The maximum-subarray problem](https://www.acwing.com/problem/content/50/)
 #### A brute-force solution 
 
-**Time complexity:** $\Omicron({n^2})$
+**Time complexity:** $O({n^2})$
 
 ##### Analyse
 
@@ -78,7 +78,7 @@ int main()
 
 ### A solution using divide-and-conquer
 
-**Time complexity:** $\Omicron(nlgn)$
+**Time complexity:** $O(nlgn)$
 
 Suppose we want to find a maximum subarray of the subarray $A[low..high]$ .
 
@@ -159,7 +159,7 @@ int main()
 
 ### DP  
 
-**Time complexity:** $\Omicron(n)$
+**Time complexity:** $O(n)$
 
 ```
 #include<iostream>
