@@ -36,8 +36,12 @@ When we state and solve recurrences,we often **omit floors,ceiling,and boundary 
 
 # Problems
 ## [The maximum-subarray problem](https://www.acwing.com/problem/content/50/)
-#### A brute-force solution $\Omicron(nlgn)$
+#### A brute-force solution 
+
+**Time complexity:** $\Omicron({n^2})$
+
 ##### Analyse
+
 A period of n days has $\big( _{2} ^{n} \big)$ such pairs of dates and $\big( _{2} ^{n} \big)$= $\Theta({n^2})$
 
 ##### Code
@@ -73,6 +77,9 @@ int main()
 ```
 
 ### A solution using divide-and-conquer
+
+**Time complexity:** $\Omicron(nlgn)$
+
 Suppose we want to find a maximum subarray of the subarray $A[low..high]$ .
 
 As **Figure 4.4(a)** shows,any contiguous subarray $A[i..j]$ of $A[low..high]$ must lie in exactly one of the following place:
@@ -150,7 +157,9 @@ int main()
 
 ```
 
-### DP  $\Omicron(n)$
+### DP  
+
+**Time complexity:** $\Omicron(n)$
 
 ```
 #include<iostream>
