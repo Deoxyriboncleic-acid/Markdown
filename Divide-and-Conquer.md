@@ -28,7 +28,7 @@ In practice,we neglect certain technical details when we state and solve recurre
 Technically ,the recurrence describing the worst-case running time of Merge-sort is really.
 
 $$
-T(n)=\begin{cases}\theta(1)&n = 1\\
+T(n)=\begin{cases}\Theta(1)&n = 1\\
 T(\lceil n/2 \rceil)+T(\lfloor n/2 \rfloor) + \Theta(n) & n>1\end{cases}
 $$
 
@@ -150,7 +150,7 @@ int main()
 
 ```
 
-### DP $\Omicron(n)$
+### DP  $\Omicron(n)$
 
 ```
 #include<iostream>
