@@ -6,14 +6,14 @@ The **(binary) heap** date structure is an array object that we can view as near
 
 An array $A$ that represents a heap is an object with two attribute:
 
-1.$A.length$,which (as usual) gives the number of elements in the array.  
+1. $A.length$,which (as usual) gives the number of elements in the array.  
 
-2.$A.heap-size$,which represents how many elements in the heap are stored within array $A$.
+2. $A.heap-size$,which represents how many elements in the heap are stored within array $A$.
 
 **PS:** That is, although may $A[1..length]$ contain numbers, only the elements in $A[1..heap-size]$, where $0\le A.heap-size \le A.length$ are valid elements of the heap.
 
  The root of the tree is $A[1]$ and given the index i of a node, we can easily compute the indices of its parent, left child, and right child:
-Father =$\lfloor i/2 \rfloor$  
+Father = $\lfloor i/2 \rfloor$  
 left-child = $2i$  
 right-child = $2i+1$  
 
